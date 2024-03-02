@@ -20,6 +20,26 @@
             padding: 10px;
             text-align: center;
         }
+        ngv{
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+        }
+        main{
+            margin:20%; /* manejar con px o %*/
+        }
+        aritcle{/*borde de la letra*/
+            border:10px;
+            color:rgb(255, 255, 255);
+        }
+        footer{
+            background-color: coral;
+            color:rgb(7, 7, 7);/*color letra*/
+            text-align:center;
+
+        }
+        section{
+            text-align:left;
+        }
     </style>
 </head>
 <body>
@@ -29,18 +49,43 @@
     <nav>
         <ul>
  <!--este mal<li><a href="hola"></a><a href="que tal"></a><a href="como estas"></a></li>
-  -->          <li><a href="1">hola</a></li>
-            <li><a href="2">que tal</a></li>
-            <li><a href="3">como estas</a></li>
+  -->          <li><a href="#seccion">seccion</a></li>
+            <li><a href="#seccion2">seccion2</a></li>
+            <li><a href="#seccion3">seccion3</a></li>
         </ul>
     </nav>
     <main>
+        <section id="seccion" style="color: rgb(231, 167, 107);">
+            <h2 style="color: #96<span>&#8459;</span>ccac;" ><span>&#8459;</span>SECCION 1</h2>
+            <p style="color: coral;">contenido de la seccion</p>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam nam porro vitae labore quos aut voluptatem saepe asperiores exercitationem in accusamus debitis optio dolorem aliquid natus eum sapiente, velit nulla.</P>
+            <a href="https://www.univalle.edu/"
+             target="'_blank" style="color: Crimson;"
+             >Enlace a la pagina UNIVALLE</a>
+        </section>
         <section></section>
         <section></section>
-        <section></section>
+        <article>
+            <aricle>
+                <section id="seccion2" style="color: cadetblue;">
+                <h2 style="color: blue;">seccion 2 </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nesciunt harum cumque rem ab incidunt vitae ad neque repudiandae architecto libero quibusdam omnis, dolore numquam quos ipsam cum doloremque sequi.</p>
+                    <a href="https://www.youtube.com/watch?v=QXRtZVkxAqA"
+                    target="'_blank" style="color: crimson;">ACCESO A YOU TUBE</a>
+                </section>
+                </aricle>
+            <SECTION id="seccion3">
+                <h2>seccion 3</h2>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nesciunt harum cumque rem ab incidunt vitae ad neque repudiandae architecto libero quibusdam omnis, dolore numquam quos ipsam cum doloremque sequi.</p>
+                    <p><a href="https://www.instagram.com/"
+                    target="'_blank">ACCESO A instagram</a></p>
+                </aricle>
+            </SECTION>
+        </article>
     </main>
     <footer>
-        <p>Ejemplo deHtml 2024- Programacion web</p>
+        <p><span>&#169;</span>Ejemplo deHtml 2024- Programacion web</p>
     </footer>
 </body>
 </html>

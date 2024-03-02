@@ -1,0 +1,53 @@
+.titulo{
+    color: darkorchid;
+    text-align:center;
+}
+.tarjeta{
+    text-align: center;
+    color: greenyellow;
+    background-color: rgb(244, 200, 159);
+    display: inline-block;
+    border-radius: 20%;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:2%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+header , footer{
+    background-color: aqua;
+    padding: 20%;
+    text-align: center;
+    color: deeppink;
+}
+section{
+    padding: 2%;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    }
+table{
+    width: 100%;
+}
+caption{
+    color: hotpink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+}
+table, th, td {
+    border:1px solid darkblue;
+    border-collapse: collapse;
+    padding:10px;
+}
+td{
+text-align: left;
+}
+th{
+    color: rgb(246, 38, 242);
+    background-color: rgb(191, 239, 241);
+}
